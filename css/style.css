@@ -1,0 +1,240 @@
+/*HOMEPAGE*//*HOMEPAGE*//*HOMEPAGE*/
+/*font start*/
+h1, h2, h3, p, li {
+    font-family: "Georgia";
+    color: rgb(24, 59, 108)
+}
+h1, h2, h3 {
+    font-weight: 100;
+}
+label {
+    font-size: 14pt;
+}
+/*font end*/
+/*nav menu start*/
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: rgb(249, 182, 107);
+    height: 60px;
+}
+nav ul li {
+    list-style-type: none;
+    float: right;
+    width: 100px;
+    margin-top: 20px;
+}
+nav ul li a {
+    font-family: "Georgia";
+    text-decoration: none;
+    color: rgb(24, 59, 108);
+    text-align: right;
+}
+nav ul li a:hover {
+    background-color:rgb(252, 216, 175);
+}
+/*nav menu end*/
+/*intro section start*/
+#intro {
+    background-color: rgb(249, 148, 107);
+    padding: 20px 20px 20px 35px;
+}
+#intro-title {
+    font-size: 1.50rem;
+}
+#intro-statement {
+    font-size: 2.50rem;
+    font-weight: 500;
+    padding: 15px 1px 0 0;
+}
+/*intro section end*/
+/*meet-me section start*/
+#meet-me-section {
+    padding: 20px 20px 200px 35px;
+    background-color: rgb(125, 156, 203)
+}
+img {
+    height: 350px;
+    width: auto;
+    float: left;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(24, 59, 108);
+}
+#meet-me {
+    font-size: 2.50rem;
+    font-weight: 500;
+    padding: 15px 20px 0 0;
+}
+#meet-me-paragraph {
+    width: 95%;
+    padding-top: 70px;
+    font-size: 14pt;
+}
+/*meet-me section end*/
+/*favorite things section start*/
+#fav-things-section {
+    background-color: rgb(97, 147, 152);
+    padding: 20px 20px 50px 35px;
+}
+#fav-things-title {
+    font-size: 2.50rem;
+    font-weight: 500;
+    padding: 15px 20px 10px 0;
+}
+.fav-things-list {
+    font-style: italic;
+    padding: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 14pt;
+}
+/*favorite things section end*/
+/*form-section start*/
+#form-section {
+    background-color: rgb(244, 111, 81);
+    padding: 20px 20px 50px 35px;
+}
+#form-section-title {
+    font-size: 2.50rem;
+    font-weight: 500;
+    padding: 15px 20px 10px 0;
+}
+#form {
+    border-color: rgb(24, 59, 108);
+    border-style: solid;
+    font-family: "Georgia";
+    color: rgb(24, 59, 108);
+    margin: 0 auto; 
+    width: 500px;
+    padding: 10px;
+}
+.form-input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(241, 153, 134);
+    border-style: solid;
+    border-color: rgb(24, 59, 108);
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#input-message {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(241, 153, 134);
+    border-style: solid;
+    border-color: rgb(24, 59, 108);
+    padding: 0 0 100px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-titles {
+    font-style: italic;
+}
+#submit-button {
+    border-style: solid;
+    border-color: rgb(24, 59, 108);
+    background-color: rgb(244, 111, 81);
+    font-family: "Georgia";
+    color: rgb(24, 59, 108);
+    padding: 5px;
+    width: 100%;
+    font-size: 14pt;
+}
+#submit-button:hover {
+    background-color: rgb(241, 153, 134);
+}
+/*form-section end*/
+/*social-section start*/
+#social-section {
+    background-color:rgb(235, 70, 41);
+    padding: 50px 20px 50px 35px;
+}
+#social-section-title {
+    font-size: 1.50rem;
+    font-weight: 500;
+    text-align: center;
+}
+#LIlink {
+    text-decoration: none;
+    color: rgb(24, 59, 108);
+}
+#LIlink:hover {
+    color: rgb(171, 203, 249);
+    text-decoration: underline;
+}
+/*social-section end*/
+/*ABOUT*//*ABOUT*//*ABOUT*/
+#intro-hobby-section {
+    background-color: rgb(249, 148, 107);
+    padding: 20px 20px 20px 35px;
+} 
+#hiking-section {
+    background-color: rgb(125, 156, 203);
+    padding: 20px 20px 300px 35px;
+    position: relative; 
+}
+#reading-section {
+    background-color: rgb(97, 147, 152);
+    padding: 20px 20px 50px 35px;
+}
+#macrame-section {
+    background-color: rgb(244, 111, 81);
+    padding: 20px 20px 350px 35px;
+}
+#video-section {
+    background-color:rgb(235, 70, 41);
+    padding: 20px 20px 50px 35px;
+}
+.about-imgs {
+    border-radius: 25px;
+    border: 2px solid rgb(24, 59, 108);
+}
+@media screen and (max-width: 600px) {
+    .about-imgs {
+        display: none;
+    }
+}
+table {
+    border-radius: 25px;
+    border: 2px solid rgb(24, 59, 108);
+    padding: 20px;
+    position: relative;
+    bottom: -20px;
+}
+th {
+    border-radius: 25px;
+    border: 2px solid rgb(24, 59, 108);
+    font-family: "Georgia";
+    color:rgb(24, 59, 108);
+    font-size: 12pt;
+    font-weight: 100;
+    padding: 5px;
+}
+iframe {
+    border-radius: 25px;
+    border: 2px solid rgb(24, 59, 108);
+    width: 100%;
+}
+#video-title {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about-paragraphs {
+    font-size: 14pt;
+}
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(24, 59, 108);
+    background-color: lightpink;
+}
